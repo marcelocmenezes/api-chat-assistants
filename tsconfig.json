@@ -1,0 +1,13 @@
+{
+  "extends": "@tsconfig/node22/tsconfig.json",
+  "compilerOptions": {
+    "baseUrl": "./src",
+    "emitDecoratorMetadata": true,
+    "esModuleInterop": true,
+    "experimentalDecorators": true,
+    "paths": {
+      "@/*": ["./*"]
+    },
+    "typeRoots": ["@types", "./node_modules/@types", "./src/main/types"],
+  }
+}
